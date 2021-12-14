@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Прочие файлы",
+      "ColorIndex": -1
+    },
+    "6d1da4e0-13ff-4c35-a984-43682c0ef373": {
+      "ProjectGuid": "6d1da4e0-13ff-4c35-a984-43682c0ef373",
+      "DisplayName": "TVShows",
+      "ColorIndex": 0
+    },
+    "582106fd-159f-4ee9-9140-53dfeae9cf80": {
+      "ProjectGuid": "582106fd-159f-4ee9-9140-53dfeae9cf80",
+      "DisplayName": "TVShows.Domain",
+      "ColorIndex": 1
+    },
+    "77a2c373-b15b-4a85-abc7-d7d5bd474f24": {
+      "ProjectGuid": "77a2c373-b15b-4a85-abc7-d7d5bd474f24",
+      "DisplayName": "WebApplication1",
+      "ColorIndex": 2
+    },
+    "8a1f9ceb-2c99-40d5-b05f-b9e813282023": {
+      "ProjectGuid": "8a1f9ceb-2c99-40d5-b05f-b9e813282023",
+      "DisplayName": "ConsoleApp1",
+      "ColorIndex": 3
+    },
+    "a35a3d33-533b-4f18-8af7-8a9f2c14c67e": {
+      "ProjectGuid": "a35a3d33-533b-4f18-8af7-8a9f2c14c67e",
+      "DisplayName": "TVShows.Services",
+      "ColorIndex": 4
+    },
+    "5e565387-6ac1-4a06-9635-3cadde1587dd": {
+      "ProjectGuid": "5e565387-6ac1-4a06-9635-3cadde1587dd",
+      "DisplayName": "TVShows.Services",
+      "ColorIndex": 5
+    }
+  },
+  "NextColorIndex": 6
+}
