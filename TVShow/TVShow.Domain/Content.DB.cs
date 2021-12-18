@@ -9,7 +9,7 @@ namespace TVShow.DB
     public class ContentDB
     {
         public int id { get; set; }
-        public string title { get; set; }
+        public string Title { get; set; }
 
         public int GenreID { get; set; }
 
