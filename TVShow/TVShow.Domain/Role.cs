@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace TVShows.Domain
+namespace TVShow.Domain
 {
     public class Role
     {

@@ -1,10 +1,10 @@
 using MyTested.AspNetCore.Mvc;
 using NUnit.Framework;
 using System.Security.Claims;
-using TVShows.Web.Api;
-using TVShows.Web.Dto;
+using TVShow.Web.Api;
+using TVShow.Web.Dto;
 
-namespace TVShows.Web.Tests
+namespace TVShow.Web.Tests
 {
 
     [TestFixture]

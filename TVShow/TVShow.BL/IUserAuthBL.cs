@@ -1,6 +1,6 @@
-﻿using TVShows.Domain;
+﻿using TVShow.Domain;
 
-namespace TVShows.BL
+namespace TVShow.BL
 {
     public interface IUserAuthBL : IBaseBL
     {

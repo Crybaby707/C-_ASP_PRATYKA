@@ -1,22 +1,22 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using NLog.Extensions.Logging;
-using TVShows.Domain;
+using TVShow.Domain;
 
-namespace TVShows.Data
+namespace TVShow.Data
 {
-    public class TVShowsDbContext : DbContext, ITVShowsDbContext
+    public class TVShowDbContext : DbContext, ITVShowDbContext
     {
         public static readonly ILoggerFactory DbContextLoggerFactory;
 
-        //static TVShowsDbContext()
+        //static TVShowDbContext()
         //{
         //    //DbContextLoggerFactory = new LoggerFactory();
         //    //DbContextLoggerFactory.AddConsole();
         //    //DbContextLoggerFactory.AddNLog();
         //}
 
-        public TVShowsDbContext(DbContextOptions options) : base(options)
+        public TVShowDbContext(DbContextOptions options) : base(options)
         {
 
         }
@@ -29,7 +29,7 @@ namespace TVShows.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder options)
         {
-            //options.UseSqlServer("Server=(local);Initial Catalog=TVShows;Trusted_Connection=True;MultipleActiveResultSets=true");
+            //options.UseSqlServer("Server=(local);Initial Catalog=TVShow;Trusted_Connection=True;MultipleActiveResultSets=true");
             //options.UseLoggerFactory(DbContextLoggerFactory);
             //options.EnableSensitiveDataLogging(true);
             base.OnConfiguring(options);

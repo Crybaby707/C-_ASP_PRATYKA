@@ -1,4 +1,4 @@
-﻿namespace TVShows.Web.Services
+﻿namespace TVShow.Web.Services
 {
     public interface IIdentityService
     {

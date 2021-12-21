@@ -5,10 +5,10 @@ using System.Linq;
 using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
-using TVShows.BL;
-using TVShows.Domain;
+using TVShow.BL;
+using TVShow.Domain;
 
-namespace TVShows.Web.Api
+namespace TVShow.Web.Api
 {
     public class BaseUserController : Controller
     {

@@ -2,14 +2,14 @@
 using System;
 using System.Linq;
 using System.Threading.Tasks;
-using TVShows.Data;
-using TVShows.Domain;
+using TVShow.Data;
+using TVShow.Domain;
 
-namespace TVShows.DAL
+namespace TVShow.DAL
 {
     public class UserAuthRepository : BaseRepository, IUserAuthRepository
     {
-        public UserAuthRepository(Func<ITVShowsDbContext> getDbContext) : base(getDbContext)
+        public UserAuthRepository(Func<ITVShowDbContext> getDbContext) : base(getDbContext)
         {
         }
 

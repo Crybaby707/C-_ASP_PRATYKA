@@ -1,7 +1,7 @@
-﻿using TVShows.DAL;
-using TVShows.Domain;
+﻿using TVShow.DAL;
+using TVShow.Domain;
 
-namespace TVShows.BL
+namespace TVShow.BL
 {
     public class UserAuthBL : IUserAuthBL
     {

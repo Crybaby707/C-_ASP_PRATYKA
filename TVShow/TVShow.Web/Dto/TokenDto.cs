@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace TVShows.Web.Dto
+namespace TVShow.Web.Dto
 {
     public class TokenDto
     {

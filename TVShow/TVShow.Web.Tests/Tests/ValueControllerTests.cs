@@ -1,8 +1,8 @@
 using MyTested.AspNetCore.Mvc;
 using NUnit.Framework;
-using TVShows.Web.Api;
+using TVShow.Web.Api;
 
-namespace TVShows.Web.Tests
+namespace TVShow.Web.Tests
 {
 
     [TestFixture]

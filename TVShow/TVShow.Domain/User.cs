@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace TVShows.Domain
+namespace TVShow.Domain
 {
     public class User
     {

@@ -1,10 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System;
-using TVShows.Domain;
+using TVShow.Domain;
 
-namespace TVShows.Data
+namespace TVShow.Data
 {
-    public interface ITVShowsDbContext : IDisposable
+    public interface ITVShowDbContext : IDisposable
     {
         DbSet<User> Users { get; set; }
 

@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TVShows.Web.Api
+namespace TVShow.Web.Api
 {
     public class BaseController : Controller
     {

@@ -1,10 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Net;
-using TVShows.Web.Dto;
-using TVShows.Web.Errors;
-using TVShows.Web.Services;
+using TVShow.Web.Dto;
+using TVShow.Web.Errors;
+using TVShow.Web.Services;
 
-namespace TVShows.Web.Api
+namespace TVShow.Web.Api
 {
     [Route("api/auth")]
     public class AuthController : BaseController

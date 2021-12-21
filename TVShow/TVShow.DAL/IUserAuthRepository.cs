@@ -1,7 +1,7 @@
 ﻿using System.Threading.Tasks;
-using TVShows.Domain;
+using TVShow.Domain;
 
-namespace TVShows.DAL
+namespace TVShow.DAL
 {
     public interface IUserAuthRepository : IBaseRepository
     {

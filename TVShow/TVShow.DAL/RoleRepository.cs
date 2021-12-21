@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using TVShows.Data;
-using TVShows.Domain;
+using TVShow.Data;
+using TVShow.Domain;
 
-namespace TVShows.DAL
+namespace TVShow.DAL
 {
     public class RoleRepository : BaseRepository, IRoleRepository
     {
-        public RoleRepository(Func<ITVShowsDbContext> getDbContext) : base(getDbContext)
+        public RoleRepository(Func<ITVShowDbContext> getDbContext) : base(getDbContext)
         {
 
         }

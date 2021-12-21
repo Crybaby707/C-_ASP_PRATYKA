@@ -9,11 +9,11 @@ using System.Linq;
 using System.Security.Claims;
 using System.Security.Principal;
 using System.Text;
-using TVShows.BL;
-using TVShows.Web.Dto;
-using TVShows.Web.Helpers;
+using TVShow.BL;
+using TVShow.Web.Dto;
+using TVShow.Web.Helpers;
 
-namespace TVShows.Web.Services
+namespace TVShow.Web.Services
 {
     public class IdentityService : IIdentityService
     {

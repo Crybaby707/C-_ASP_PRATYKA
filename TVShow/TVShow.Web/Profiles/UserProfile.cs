@@ -1,9 +1,9 @@
 ﻿using AutoMapper;
 using System.Linq;
-using TVShows.Domain;
-using TVShows.Web.Dto;
+using TVShow.Domain;
+using TVShow.Web.Dto;
 
-namespace TVShows.Web.Profiles
+namespace TVShow.Web.Profiles
 {
     public class UserProfile : Profile
     {

@@ -7,10 +7,10 @@ using System.Linq;
 using System.Net;
 using System.Text;
 using System.Threading.Tasks;
-using TVShows.BL;
-using TVShows.Web.Dto;
+using TVShow.BL;
+using TVShow.Web.Dto;
 
-namespace TVShows.Web.Api
+namespace TVShow.Web.Api
 {
     [Route("api/current-user")]
     public class CurrentUserController : BaseUserController

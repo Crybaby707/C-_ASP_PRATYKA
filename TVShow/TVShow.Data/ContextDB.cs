@@ -12,3 +12,4 @@ namespace TVShow.Data
         public DbSet<Content> Contents { get; set; }
     }
 }
+

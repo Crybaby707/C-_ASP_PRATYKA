@@ -1,14 +1,14 @@
 ﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using MyTested.AspNetCore.Mvc;
-using TVShows.Data;
-using TVShows.Web.Tests.InMemory;
+using TVShow.Data;
+using TVShow.Web.Tests.InMemory;
 
-namespace TVShows.Web.Tests
+namespace TVShow.Web.Tests
 {
     public class TestStartup : Startup
     {
-        public TestStartup(IConfiguration configuration) : base(configuration)
+        public TestStartup(IConfiguration _configString) : base(_configString)
         {
         }
 
@@ -16,7 +16,7 @@ namespace TVShows.Web.Tests
         {
             base.ConfigureServices(services);
 
-            services.ReplaceScoped<ITVShowsDbContext, MockTVShowsDbContext>();
+            services.ReplaceScoped<ITVShowDbContext, MockTVShowDbContext>();
             // Replace only your own custom services. The ASP.NET Core ones 
             // are already replaced by MyTested.AspNetCore.Mvc. 
             //services.ReplaceScoped<IRoleBL, MockRoleBL>();

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TVShows.ConsoleApp
+namespace TVShow.ConsoleApp
 {
     class Program
     {

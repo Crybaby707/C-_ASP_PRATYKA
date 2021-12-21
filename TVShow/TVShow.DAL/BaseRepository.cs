@@ -1,25 +1,25 @@
 ﻿using System;
-using TVShows.Data;
+using TVShow.Data;
 
-namespace TVShows.DAL
+namespace TVShow.DAL
 {
     public class BaseRepository
     {
 
-        private readonly Lazy<ITVShowsDbContext> lazyContext;
+        private readonly Lazy<ITVShowDbContext> lazyContext;
 
-        private ITVShowsDbContext context => lazyContext.Value;
+        private ITVShowDbContext context => lazyContext.Value;
 
 
-        protected readonly Func<ITVShowsDbContext> getDbContext;
+        protected readonly Func<ITVShowDbContext> getDbContext;
 
-        public BaseRepository(Func<ITVShowsDbContext> getDbContext)
+        public BaseRepository(Func<ITVShowDbContext> getDbContext)
         {
             this.getDbContext = getDbContext;
-            lazyContext = new Lazy<ITVShowsDbContext>(() => getDbContext());
+            lazyContext = new Lazy<ITVShowDbContext>(() => getDbContext());
         }
 
-        protected T Execute<T>(Func<ITVShowsDbContext, T> functor)
+        protected T Execute<T>(Func<ITVShowDbContext, T> functor)
         {
             using (var dbContext = getDbContext())
             {
@@ -27,7 +27,7 @@ namespace TVShows.DAL
             }
         }
 
-        protected T Query<T>(Func<ITVShowsDbContext, T> functor)
+        protected T Query<T>(Func<ITVShowDbContext, T> functor)
         {
             return functor(context);
         }

@@ -4,7 +4,7 @@ using TVShow.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.EntityFrameworkCore;
 
-namespace webTemplate.Web
+namespace TVShow.Web
 {
     public class Startup
     {

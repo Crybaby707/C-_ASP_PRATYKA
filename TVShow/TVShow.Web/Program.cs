@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 
-namespace webTemplate.Web
+namespace TVShow.Web
 {
     public class Program
     {

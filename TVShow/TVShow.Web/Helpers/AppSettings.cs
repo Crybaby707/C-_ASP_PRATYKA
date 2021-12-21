@@ -1,4 +1,4 @@
-﻿namespace TVShows.Web.Helpers
+﻿namespace TVShow.Web.Helpers
 {
     public class AppSettings
     {

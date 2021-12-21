@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using TVShows.Domain;
+using TVShow.Domain;
 
-namespace TVShows.BL
+namespace TVShow.BL
 {
     public interface IRoleBL : IBaseBL
     {

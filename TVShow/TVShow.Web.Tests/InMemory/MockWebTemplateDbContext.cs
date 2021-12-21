@@ -4,12 +4,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using TVShows.Data;
-using TVShows.Domain;
+using TVShow.Data;
+using TVShow.Domain;
 
-namespace TVShows.Web.Tests.InMemory
+namespace TVShow.Web.Tests.InMemory
 {
-    public class MockTVShowsDbContext : DbContext, ITVShowsDbContext
+    public class MockTVShowDbContext : DbContext, ITVShowDbContext
     {
         public DbSet<User> Users { get; set; }
 
@@ -17,7 +17,7 @@ namespace TVShows.Web.Tests.InMemory
 
         public DbSet<UserRole> UserRoles { get; set; }
 
-        public MockTVShowsDbContext(DbContextOptions options) : base(options)
+        public MockTVShowDbContext(DbContextOptions options) : base(options)
         {
             Seeder.Seed(this);
         }

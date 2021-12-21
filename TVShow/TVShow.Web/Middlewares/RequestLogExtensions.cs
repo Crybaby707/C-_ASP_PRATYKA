@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Builder;
 
-namespace TVShows.Web.Middlewares
+namespace TVShow.Web.Middlewares
 {
     public static class RequestLogExtensions
     {

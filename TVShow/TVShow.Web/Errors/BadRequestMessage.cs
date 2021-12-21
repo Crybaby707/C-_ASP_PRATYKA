@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace TVShows.Web.Errors
+namespace TVShow.Web.Errors
 {
     public class BadRequestMessage
     {

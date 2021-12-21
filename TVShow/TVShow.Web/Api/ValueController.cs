@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TVShows.Web.Api
+namespace TVShow.Web.Api
 {
     [Route("api/value")]
     public class ValueController : Controller

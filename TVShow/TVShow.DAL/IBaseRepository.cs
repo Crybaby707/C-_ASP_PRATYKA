@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TVShows.DAL
+namespace TVShow.DAL
 {
     public interface IBaseRepository
     {

@@ -4,10 +4,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using TVShows.Data;
-using TVShows.Domain;
+using TVShow.Data;
+using TVShow.Domain;
 
-namespace TVShows.Web.Tests.InMemory
+namespace TVShow.Web.Tests.InMemory
 {
     public static class Seeder
     {

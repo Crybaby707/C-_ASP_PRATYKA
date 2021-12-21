@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TVShows.Web.Tests.InMemory
+namespace TVShow.Web.Tests.InMemory
 {
     public abstract class Seed<T> where T : class
     {

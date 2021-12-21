@@ -15,7 +15,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "TVShows.Web": {
+    "TVShow.Web": {
       "commandName": "Project",
       "launchBrowser": false,
       "applicationUrl": "http://localhost:5000",
@@ -23,7 +23,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-	"TVShows.Web.Local": {
+	"TVShow.Web.Local": {
       "commandName": "Project",
       "launchBrowser": false,
       "applicationUrl": "http://localhost:9999",

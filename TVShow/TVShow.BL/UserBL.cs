@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using TVShows.DAL;
-using TVShows.Domain;
+using TVShow.DAL;
+using TVShow.Domain;
 
-namespace TVShows.BL
+namespace TVShow.BL
 {
     public class UserBL : IUserBL
     {

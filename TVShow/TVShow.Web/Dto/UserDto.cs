@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace TVShows.Web.Dto
+namespace TVShow.Web.Dto
 {
     public class UserDto
     {

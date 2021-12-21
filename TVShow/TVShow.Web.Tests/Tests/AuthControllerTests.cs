@@ -1,12 +1,12 @@
 using MyTested.AspNetCore.Mvc;
 using NUnit.Framework;
 using System.Collections.Generic;
-using TVShows.Data;
-using TVShows.Domain;
-using TVShows.Web.Api;
-using TVShows.Web.Dto;
+using TVShow.Data;
+using TVShow.Domain;
+using TVShow.Web.Api;
+using TVShow.Web.Dto;
 
-namespace TVShows.Web.Tests
+namespace TVShow.Web.Tests
 {
 
     [TestFixture]

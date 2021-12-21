@@ -4,9 +4,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using TVShows.Domain;
+using TVShow.Domain;
 
-namespace TVShows.Web.Tests.InMemory
+namespace TVShow.Web.Tests.InMemory
 {
     public class UserSeed : Seed<User>
     {

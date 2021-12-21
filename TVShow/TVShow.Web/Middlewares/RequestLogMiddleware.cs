@@ -8,7 +8,7 @@ using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
 
-namespace TVShows.Web.Middlewares
+namespace TVShow.Web.Middlewares
 {
     public class RequestLogMiddleware
     {

@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using TVShows.Data;
-using TVShows.Domain;
+using TVShow.Data;
+using TVShow.Domain;
 
-namespace TVShows.DAL
+namespace TVShow.DAL
 {
     public class UserRepository : BaseRepository, IUserRepository
     {
-        public UserRepository(Func<ITVShowsDbContext> getDbContext) : base(getDbContext)
+        public UserRepository(Func<ITVShowDbContext> getDbContext) : base(getDbContext)
         {
         }
 

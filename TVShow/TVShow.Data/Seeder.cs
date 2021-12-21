@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using TVShows.Domain;
+using TVShow.Domain;
 
-namespace TVShows.Data
+namespace TVShow.Data
 {
     public class Seeder
     {
@@ -25,7 +25,7 @@ namespace TVShows.Data
             {
                 Id = 1,
                 Name = "Administrator",
-                Email = "admin@TVShows.net",
+                Email = "admin@TVShow.net",
                 Password = "123456"
             });
 
@@ -33,7 +33,7 @@ namespace TVShows.Data
             {
                 Id = 2,
                 Name = "Regular User",
-                Email = "user@TVShows.net",
+                Email = "user@TVShow.net",
                 Password = "123456"
             });
 

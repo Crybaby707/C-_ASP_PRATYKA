@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TVShows.BL
+namespace TVShow.BL
 {
     public interface IBaseBL
     {
