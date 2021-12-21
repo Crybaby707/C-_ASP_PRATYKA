@@ -3,19 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32002.185
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TVShows.Domain", "TVShow.Domain\TVShows.Domain.csproj", "{ACE0E288-8395-4A5E-AE74-08B875C2193D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TVShow.Domain", "TVShow.Domain\TVShow.Domain.csproj", "{ACE0E288-8395-4A5E-AE74-08B875C2193D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TVShows.Data", "TVShow.Data\TVShows.Data.csproj", "{C61001BC-81D7-4F57-9AEC-D108FDC30927}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TVShow.Data", "TVShow.Data\TVShow.Data.csproj", "{C61001BC-81D7-4F57-9AEC-D108FDC30927}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TVShows.DAL", "TVShow.DAL\TVShows.DAL.csproj", "{A48245CC-A466-404E-B1F7-FEAD16F8E47D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TVShow.BL", "TVShow.BL\TVShow.BL.csproj", "{4DAD57CC-5A77-4BCE-8968-C1A8C23E1DAF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TVShows.BL", "TVShow.BL\TVShows.BL.csproj", "{4DAD57CC-5A77-4BCE-8968-C1A8C23E1DAF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TVShow.SL", "TVShow.SL\TVShow.SL.csproj", "{BC832153-D7F0-40E8-81CC-19460200843D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TVShows.SL", "TVShow.SL\TVShows.SL.csproj", "{BC832153-D7F0-40E8-81CC-19460200843D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TVShow.Web", "TVShow.Web\TVShow.Web.csproj", "{0F5FC070-4859-4F3F-9A00-5EAEE4526AB7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TVShows.Web", "TVShow.Web\TVShows.Web.csproj", "{0F5FC070-4859-4F3F-9A00-5EAEE4526AB7}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TVShows.ConsoleApp", "TVShow.ConsoleApp\TVShows.ConsoleApp.csproj", "{4E0847ED-B3B9-4F92-B6BD-38D34743BC0D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TVShow.ConsoleApp", "TVShow.ConsoleApp\TVShow.ConsoleApp.csproj", "{4E0847ED-B3B9-4F92-B6BD-38D34743BC0D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{5517A2D3-47C5-4FCC-8508-52ADF6140491}"
 EndProject
@@ -24,7 +22,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		readme.md = readme.md
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TVShows.Web.Tests", "TVShow.Web.Tests\TVShows.Web.Tests.csproj", "{BFA93748-A7E6-4EB1-AA08-6C2AA897F4F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TVShow.Web.Tests", "TVShow.Web.Tests\TVShow.Web.Tests.csproj", "{BFA93748-A7E6-4EB1-AA08-6C2AA897F4F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

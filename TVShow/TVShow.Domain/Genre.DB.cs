@@ -1,6 +1,6 @@
 ﻿
 
-namespace TVShow.DB
+namespace TVShow.Domain
 {
     public class GenreID
     {
