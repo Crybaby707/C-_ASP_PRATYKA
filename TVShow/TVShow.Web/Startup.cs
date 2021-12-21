@@ -15,10 +15,10 @@ namespace TVShow.Web
             services.AddDbContext<TVShowDbContext>(options => options.UseMySQL(_configString.GetConnectionString("DefaultConnection")));
         }
 
-        public Startup(IHostingEnvironment HostEnv)
+        public Startup(IHostingEnvironment hostEnv)
         {
 
-            _configString = new ConfigurationBuilder().SetBasePath(HostEnv.ContentRootPath).AddJsonFile("appsettings.json").Build();
+            _configString = new ConfigurationBuilder().SetBasePath(hostEnv.ContentRootPath).AddJsonFile("appsettings.json").Build();
 
         }
     }
