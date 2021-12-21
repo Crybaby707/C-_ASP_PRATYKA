@@ -8,7 +8,7 @@ namespace TVShow.Web.Tests
 {
     public class TestStartup : Startup
     {
-        public TestStartup(IConfiguration _configString) : base(_configString)
+        public TestStartup(IConfiguration configString) : base(configString)
         {
         }
 

@@ -12,6 +12,8 @@ namespace TVShow.Data
 
         DbSet<UserRole> UserRoles { get; set; }
 
+        DbSet<Content> Contents { get; set; }
+
         int SaveChanges();
     }
 }

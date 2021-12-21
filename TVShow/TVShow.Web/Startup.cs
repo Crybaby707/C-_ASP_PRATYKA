@@ -12,7 +12,7 @@ namespace TVShow.Web
 
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<ContextDB>(options => options.UseMySQL(_configString.GetConnectionString("DefaultConnection")));
+            services.AddDbContext<TVShowDbContext>(options => options.UseMySQL(_configString.GetConnectionString("DefaultConnection")));
         }
 
         public Startup(IHostingEnvironment HostEnv)

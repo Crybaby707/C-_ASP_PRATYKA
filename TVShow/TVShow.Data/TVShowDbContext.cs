@@ -27,6 +27,8 @@ namespace TVShow.Data
 
         public DbSet<UserRole> UserRoles { get; set; }
 
+        public DbSet<Content> Contents { get; set; }
+
         protected override void OnConfiguring(DbContextOptionsBuilder options)
         {
             //options.UseSqlServer("Server=(local);Initial Catalog=TVShow;Trusted_Connection=True;MultipleActiveResultSets=true");

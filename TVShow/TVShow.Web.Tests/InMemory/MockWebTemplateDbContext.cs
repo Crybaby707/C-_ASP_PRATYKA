@@ -16,6 +16,7 @@ namespace TVShow.Web.Tests.InMemory
         public DbSet<Domain.Role> Roles { get; set; }
 
         public DbSet<UserRole> UserRoles { get; set; }
+        public DbSet<Content> Contents { get; set; }
 
         public MockTVShowDbContext(DbContextOptions options) : base(options)
         {
